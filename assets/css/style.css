@@ -1,0 +1,41 @@
+body {
+    height: 500px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-image: url(../img/sfondo.png);
+}
+
+.quablu {
+    height: 350px;
+    width: 450px;
+    background-color: #0088AA;
+    color: white;
+    margin: 15px;
+    box-shadow: 0px 8px 10px #000000;
+}
+
+.quablu > img {
+    width: 300px;
+    padding-left: 60px;
+    padding-top: 25px;
+}
+
+.quablu > h1 {
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+.quablu > ul {
+    font-size: large;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.primocontenuto {
+    height: 700px;
+    width: 450px;
+    margin: 15px;
+    box-shadow: 8px 8px 10px #000000;
+    background-color: white;
+
+}
