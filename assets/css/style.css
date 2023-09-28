@@ -1,8 +1,10 @@
 body {
     height: 500px;
+    width: 500px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     background-image: url(../img/sfondo.png);
+    font-size: 20px;
 }
 
 .quablu {
@@ -10,7 +12,7 @@ body {
     width: 450px;
     background-color: #0088AA;
     color: white;
-    margin: 15px;
+    margin: 20px;
     box-shadow: 0px 8px 10px #000000;
 }
 
@@ -31,11 +33,33 @@ body {
     padding-top: 20px;
 }
 
-.primocontenuto {
-    height: 700px;
-    width: 450px;
-    margin: 15px;
+section{
+    height: 3100px;
+    width: 425px;
+    margin: 20px;
     box-shadow: 8px 8px 10px #000000;
     background-color: white;
+    font-size: 25px;
+    border: 1px solid black;
+    padding-left: 20px;
+
+    
 
 }
+
+h3 {
+    font-size: 25px;
+}
+
+.autore {
+    color: #9DA49F;
+    font-size: 18px;
+    
+}
+
+.testo1 {
+    font-size: 20px;
+}
+
+.testo1 > span {color: #AA2072;}
+
